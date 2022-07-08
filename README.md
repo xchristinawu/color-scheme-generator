@@ -15,8 +15,8 @@ A solo project from the [Scrimba Frontend Developer Career Path](https://scrimba
 
 ### Requirements
 
-- [x] Choose "seed color" with an <input type="color"/>
-- [x] Choose color scheme mode in a <select> box
+- [x] Choose "seed color" with an \<input type="color"/>
+- [x] Choose color scheme mode in a \<select> box
 - [x] Clicking button makes request to The Color API to get a color scheme
 - [x] Display the scheme colors and hex values on the page
 - [x] Stretch goal: click to copy hex values to clipboard
