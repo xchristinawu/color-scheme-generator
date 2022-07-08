@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Scheme Generator</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="outer-container">
+            <div>
+                <h1>Color Scheme Generator</h1>
+            </div>
+            <div class="container">
+                <div id="selections">
+                    <input aria-label="select color" type="color" value="#0047AB" id="select-color">
+                    <select aria-label="select color scheme" name="schemes" id="select-scheme">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                    <button id="color-btn">Get color scheme</button>
+                </div>
+
+                <div id="color-container"></div>
+
+                <div id="hex-values"></div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
